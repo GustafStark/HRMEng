@@ -1,0 +1,95 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.bg {
+    background: url('http://www.hrmengineering.se/files/img/hrm-toppbild_mats_orange.jpg' ) no-repeat left center;
+    height: 350px;
+}
+
+.HomePicture {
+    background: url('http://www.hrmengineering.se/template/default/img/logo.png') no-repeat top left;
+    display: block;
+    width: 200px;
+    height: 60px;
+    text-indent: -9999px;
+}
+
+.myMenuColour {
+    background-color: white;
+    border-color: white;
+}
+
+.menu-top-offset {
+    margin-top: 200px;
+}
+
+.title-desc-image {
+    /*background-image:url("http://www.hrmengineering.se/files/img/toppbild_lower_framtidsbil_dark_lower.jpg");*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.box-white-color {
+    background-color: white;
+}
+
+.Libary {
+    background-image: url('../Images/IMG_0038.JPG');
+    width: 500px;
+    height: 500px;
+}
+
+.Libary:hover {
+    background-image: url('../Images/logo.png');
+    opacity: 0.7;
+    width: 500px;
+    height: 500px;
+}
+
+.trPic {
+    width: 320px;
+    height: 240px;
+    background-image: url('../Images/IMG_0038.JPG') no-repeat;
+    /*background: url(img/flower.png) no-repeat;*/
+    border: 5px solid #000000;
+}
+
+.trPic .redO {
+    position: relative;
+    top: 0px;
+    width: 320px;
+    height: 240px;
+    background: #FF2400;
+    opacity: 0;
+}
+
+.trPic:hover .redO {
+    opacity: 0.7;
+}

@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "HRM Engeneering";
+
+}
+@*<section class="col-md-12">
+        <img src="~/Images/hrm-toppbild_mats_orange.jpg" class="img-responsive center-block" />
+
+    </section>*@
+<section class="row">
+    <article class="col-md-12 title-desc-image img-responsive"></article>
+
+    <article class="col-md-4 box-white-color" ">
+        @*<img src="~/Images/logo.png" />*@
+        <div class="trPic"> <div class="redO"> </div>
+    </article>
+    <article class="col-md-4 box-white-color"></article>
+    <article class="col-md-4 box-white-color"></article>
+    <article class="col-md-12 title-desc-image img-responsive"></article>
+
+    <article class="col-md-4 box-white-color"></article>
+    <article class="col-md-4 box-white-color"></article>
+    <article class="col-md-4 box-white-color"></article>
+    <article class="col-md-12 title-desc-image img-responsive"></article>
+
+    <article class="col-md-4 box-white-color"></article>
+    <article class="col-md-4 box-white-color"></article>
+    <article class="col-md-4 box-white-color"></article>
+    <article class="col-md-4 box-white-color"></article>
+    <article class="col-md-4 box-white-color"></article>
+    <article class="col-md-4 box-white-color"></article>
+
+
+
+
+</section>
+
+@*http://www.hrmengineering.se/files/img/toppbild_lower_framtidsbil_dark_lower.jpg  Svart bil
+    ViewBag.Logo = "http://www.hrmengineering.se/template/default/img/logo.png";
+           ViewBag.Video =  "https://www.youtube.com/watch?v=9z6KGxwveQw";*@
+
+@*@{var amounts = new List<decimal> { 100, -39, 203 };}
+    <ul>
+        @foreach (decimal amount in amounts)
+                {
+            <li>@formatAmount(amount)</li>
+        }
+    </ul>
+
+
+    @helper formatAmount(decimal amount)
+    {
+    var colour = "green";
+    if (amount < 0)
+    {
+        colour = "red";
+    }
+        <span style="color:@colour">@String.Format("{0:c}", amount)</span>
+    }*@
+
+@*<article class="col-md-4">
+        @*<img src="@ViewBag.Logo" alt="Logo" width="100" height="100" />
+        @ViewBag.Logo
+        @ViewBag.Video
+
+            <a href="@Url.Action("Details","CheckingAccount")" class="btn btn-primary btn-large btn-block">
+                <span class="glyphicon glyphicon-question-sign"></span>
+                Balance Inquiry
+            </a>
+    </article>
+       <article class="col-lg-4">
+        <iframe width="560" height="360" src="https://www.youtube.com/watch?v=9z6KGxwveQw" frameborder="0" ></iframe>
+    </article>
+
+
+*@
